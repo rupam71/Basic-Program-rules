@@ -1,0 +1,24 @@
+Pseduselectors
+    h1:hover {}
+    li:first-child {}   //only first child will activate
+    li:last-child {}    //only last child will activate
+    li:nth-child(2) {}  //only second child will activate
+    p:link {}           //style before link clicked (Unvisited)
+    p:visited {}        //style after link clicked
+
+Advance Selector
+    h2 + a {}           //style a, which after h2 // h2 > a
+    h2 ~ a {}           //style a, which after h2 in same parants // div{h2 > a}
+    ul > li {}          //style every li in ul // ul{ li > li > li } //first child only
+    ul  li {}           //style every li inside of ul //all decendent
+
+Attribute Selector
+    h2[class='subtitle']    //style every h2, which have class attribute is subtitle.
+    h2[class^='subtitle']   //start with "subtitle"
+    h2[class$='subtitle']   //ends with "subtitle"
+    h2[class*='subtitle']   //contain with "subtitle" //anywhere
+    h2[class~='subtitle']   //if "subtitle" sepatate by white space
+    
+Background
+    <
+
