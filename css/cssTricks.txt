@@ -20,5 +20,49 @@ Attribute Selector
     h2[class~='subtitle']   //if "subtitle" sepatate by white space
     
 Background
-    <
+    background-size: 50px 100px     //auto repeat
+    background-size: cover     //fill hight and width
+    background-size: contain     //repeat with ratio with either width or highth
+    background-repeat: repeat / no-repeat  
 
+Types of Unit 
+    Absolulte : exect value like 5px
+    Relative : relative to something like 2em (2 * standerd font size)
+    vw : view port width (screen width) like 70v (70% of view port)
+    vh : view port hight (screen hight) like 400v (400% of view port)
+    
+Text Manupulation
+    text-transform : capitalize / lowercase / uppercase
+    text-align : center / left / right / justify
+    font-weight : (min:100 to max:800) normal:400
+
+Font Manupulation
+    font-style: italic;
+    font-family: "Arial", sans-serif;
+
+The Box Modal
+    ||||content|padding|border|margin|
+    border: size style color
+    border: 5px (dotted/dashed/solid/double) red
+    padding: top right bottom left
+    float: left/right/inharite
+    display: inline/block/none/inline-block
+    (inharite) : move with parants elemenet.
+
+Flexbox Parnats
+    display: Flexbox
+    flex-direction: row/column
+    flex-wrap: wrap/no-wrap
+    justify-content: horigontal alignment
+    justify-content: flex-start/flex-end/space-around/space-between
+    align-items: vertical alignment
+    align-items: center/flex-start/flex-end/baseline
+
+Flexbox Childs
+    order: 1 (number)
+    flex: flex-grow flex-shrink flex-basis
+    align-self: flex-start/center/flex-end (verticale alighnment)
+
+The Transition Property
+    transition: 2s ease-in-out 1s
+    transition: second-to-happen style delay
